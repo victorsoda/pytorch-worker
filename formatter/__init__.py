@@ -1,15 +1,16 @@
 import logging
 
 from .Basic import BasicFormatter
-from .nlp.BasicBertFormatter import BasicBertFormatter
 from .cv.BasicResnetFormatter import BasicResnetFormatter
+from .cv.Cifar10Formatter import Cifar10Formatter
+
 
 logger = logging.getLogger(__name__)
 
 formatter_list = {
     "Basic": BasicFormatter,
-    "BasicBert": BasicBertFormatter,
-    "BasicResnet": BasicResnetFormatter
+    "BasicResnet": BasicResnetFormatter,
+    "Cifar10": Cifar10Formatter
 }
 
 

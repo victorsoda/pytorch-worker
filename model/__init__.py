@@ -1,7 +1,7 @@
-from .nlp.BasicBert import BasicBert
+from .cv.NaiveCNN import NaiveCNN
 
 model_list = {
-    "BasicBert": BasicBert
+    "NaiveCNN": NaiveCNN
 }
 
 
