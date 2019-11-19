@@ -10,3 +10,5 @@ config/default_local.config
 temp
 notebook
 result
+model/cv/NaiveCNN
+tensorboard
